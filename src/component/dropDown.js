@@ -14,9 +14,6 @@ export const picker = function optionBox(data) {
     setopData(title);
     return (picker);
 
-
-
-
 }
 function manipulateData(data) {
     let eachItem;
@@ -26,7 +23,6 @@ function manipulateData(data) {
 
     }
 }
-
 const apiResponce = fetch("https://api.thevirustracker.com/free-api?countryTotals=ALL")
     .then((response) => {
         return response.json();
